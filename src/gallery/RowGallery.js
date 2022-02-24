@@ -36,7 +36,7 @@ const RowGallery = ({ highlight, lastKey, title, ativo, elementsX, setElementsX 
       <ul style={{ transform: `translateX(${posXGaleria}vw)`, transition: '1s' }} className="flex x-gallery">
         {elementsX.map((cada) => {
           return (
-            <li key={cada.key}>
+            <li key={cada.key}>              
               <img
                 src={cada.image}
                 style={{ border: ativo && cada.ativo === true ? '5px solid gold' : '' }}
