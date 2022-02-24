@@ -13,10 +13,9 @@ const Gallery = ({ className, style }) => {
   const [lastKey, setLastKey] = React.useState('');
 
   const [elementsY, setElementsY] = React.useState([
-    { key: 1, title: 'Productivity', ativo: false },
-    { key: 2, title: 'Organization', ativo: false },
+    { key: 1, title: 'Life', ativo: false },
+    { key: 2, title: 'Wonder', ativo: false },
     { key: 3, title: 'Organization', ativo: false },
-    { key: 4, title: 'Organization', ativo: false },
   ]);
 
   const [elementsX, setElementsX] = React.useState([
