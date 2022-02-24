@@ -1,0 +1,14 @@
+.gallery-each{
+  width: 20.052vw;
+  height: calc(20.052vw * 0.625974);
+  border-radius:12px;
+
+}
+li + li{
+  padding-left: 1.041666vw;
+}
+.outer-x-gallery{
+  margin-left: 4.6875vw;
+  overflow: hidden;
+  top: calc(100% - 60%);
+}
